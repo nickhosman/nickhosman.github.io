@@ -319,6 +319,12 @@ blockquote {
     width: 4rem;
 }
 
+/* Project Images */
+#site-img {
+    object-fit: contain;
+    height: auto;
+}
+
 /* Container */
 
 .container {
@@ -2758,9 +2764,10 @@ input[type="button"].small,
 
 .feature .image img {
     display: block;
-    min-height: 100%;
-    min-width: 100%;
+    object-fit: contain;
+    width: 130%;
     position: absolute;
+    left: -13%;
 }
 
 .feature:before {
